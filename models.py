@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 import datetime
+from config import MONGODB_URI
 import mongoengine as db
 from mongoengine import connect
 
 
-connect('partiayedy')
+connect('partiayedy', host=MONGODB_URI)
 
 
 class User(db.Document):

@@ -1,7 +1,5 @@
 MONGODB_NAME = "partiaedy"
-MONGODB_HOST = "localhost"
-MONGODB_USER = ""
-MONGODB_PASSWORD = ""
+MONGODB_URI = "mongodb://coff:Hakuna@ds031822.mongolab.com:31822/viola"
 
 TELEGRAMM_TOKEN = '139310085:AAF3sxDrLxIyt19AOOtmkhVmOWPLng69pOY'
 TRELLO_APP_KEY = 'eb10ff0a1bf850420a90fe696fe42679'
