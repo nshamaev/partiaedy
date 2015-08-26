@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+HELP = "Для начала заказа введите /start"
+TELL_ME_PHONE = "Привет! Введи пожалуйста свой телефон"
+TELL_ME_EMAIL = "Теперь введи свой email"
+TELL_ME_NAME = "Как вас зовут?"
+TELL_ME_CITY = "В каком городе ты живешь?"
+TELL_ME_ADDRESS = "Введите ваш адрес"
+TELL_ME_COUNT_PERSONS = "Заказ на двоих или на четверых персон?"
+PERSONS_CHOICES = [["2", "4"]]
+TELL_ME_COUNT_DINNERS = "Какое количество ужинов?"
+DINNERS_CHOICES = [["5", "3"]]
+TELL_ME_CUISINE = "Классическое, вегетарианское или легкое меню?"
+CLASSIC = "Классическое"
+VEGETABLE = "Вегетарианское"
+LIGHT = "Легкое"
+CUISINE_CHOICES = [[CLASSIC, VEGETABLE, LIGHT]]
+CITY_CHOICE = [["Москва", "Санкт-Петербург"]]
+BACK = "/Назад"
+MAKE_ORDER = "Ваш заказ принят, спасибо!"
+ALREADY_HAS_ORDER = "У вас уже есть заказ на эту неделю, спасибо!"
+TRELLO_CARD_NAME = "Заказ на %d персоны, %d ужинов"
+TRELLO_CARD_DESCRIPTION = "%s, %s, %s, %s"

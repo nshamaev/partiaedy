@@ -1,3 +1,6 @@
 python-telegram-bot==2.7.1
 trello==0.9.1
-tornado
+twisted==15.3.0
+mongoengine
+enum34
+phonenumbers
